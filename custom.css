@@ -1,0 +1,46 @@
+body {
+  padding-bottom: 0px;
+
+}
+
+pre, code {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+.fixed-w500 {
+  width: 500px;
+}
+
+.max-w500 {
+  max-width: 500px;
+}
+
+html,body{
+    height: 100%
+}
+
+#holder{
+    min-height: 100%;
+    position:relative;
+}
+
+#body{
+    padding-bottom: 50px;    /* height of footer */
+}
+
+.content {
+  padding-bottom: 100px;
+
+}
+
+footer{
+    height: 50px; 
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    padding: 0px 0px 125px 0px;
+}
+
